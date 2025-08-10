@@ -36,13 +36,44 @@
     ul {
       padding-left: 1.5rem;
     }
+    .email-preview {
+      margin-top: 2rem;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+    .email-preview img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+    .appstore-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #0070c9;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .appstore-link:hover {
+      background-color: #005fa3;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Support - LU Campus Safety App</h1>
+    <h1>LU Campus Safety App Support</h1>
   </header>
+
   <div class="container">
+    <h2>About the LU Campus Safety App</h2>
+    <p>The LU Campus Safety App is designed to provide a secure environment for students, faculty, and staff at Lawrence University. 
+    With this app, you can request help quickly—whether it’s for a ride across campus, assistance at an off-campus location, 
+    unlocking a room, or reporting a concern. You can make requests instantly or schedule them in advance for convenience and safety.</p>
+    <a class="appstore-link" href="https://apps.apple.com/us/app/lu-campussafety/id6747465155" target="_blank">Download on the App Store</a>
+
     <h2>Need Help?</h2>
     <p>We're here to support you. If you have any questions, issues, or feedback about the LU Campus Safety App, feel free to contact us:</p>
 
@@ -55,11 +86,17 @@
     <h2>Frequently Asked Questions (FAQ)</h2>
     <ul>
       <li><strong>My verification code didn’t arrive at my @lawrence.edu email.</strong><br>Please check your Junk or Spam folder in Outlook—it may have been filtered there.</li>
-      <li><strong>I can't use the "current location" feature.</strong><br>Make sure you’ve granted the app permission to access your location *while using the app* in your device settings.</li>
+      <li><strong>I can't use the "current location" feature.</strong><br>Make sure you’ve granted the app permission to access your location <em>while using the app</em> in your device settings.</li>
     </ul>
 
     <h2>Feedback</h2>
     <p>We value your input. If you have suggestions or want to report bugs, please email us with as much detail as possible.</p>
+
+    <div class="email-preview">
+      <h3>Example Verification Email</h3>
+      <p>This is how our verification email looks when you sign up:</p>
+      <img src="images/verification-email.png" alt="Example verification email">
+    </div>
   </div>
 </body>
 </html>
